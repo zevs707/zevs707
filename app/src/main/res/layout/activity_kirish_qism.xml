@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/backgroundColor"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp"
+
+                android:layout_weight="6"
+                android:elevation="20dp"
+                android:theme="@style/MyCardView">
+
+                <ScrollView
+                    android:id="@+id/sv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bgHeader"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:src="@drawable/person_ios2" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Aholi"
+                                        android:textColor="#033333"
+                                        android:textSize="22sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="3.139.816"
+                                        android:textColor="#033333"
+                                        android:textSize="17sp" />
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:src="@drawable/home_ios" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="MFY"
+                                        android:textColor="#033333"
+                                        android:textSize="22sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="882"
+                                        android:textColor="#033333"
+                                        android:textSize="17sp" />
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:src="@drawable/ios_home" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Honadon"
+                                        android:textColor="#033333"
+                                        android:textSize="22sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="546.596"
+                                        android:textColor="#033333"
+                                        android:textSize="17sp" />
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="10dp"
+                                        android:src="@drawable/person_ios2" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Oila"
+                                        android:textColor="#033333"
+                                        android:textSize="22sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="814.887"
+                                        android:textColor="#033333"
+                                        android:textSize="17sp" />
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/cardstatistika"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="16dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bootshape"
+                                app:cardCornerRadius="26dp">
+
+                                <TextView
+                                    android:id="@+id/statistika"
+                                    android:layout_width="382dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Jinsi bo'ycha statistika"
+                                    android:textColor="#033333"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold" />
+
+
+                                <LinearLayout
+
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="45dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/statistika2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Erkaklar"
+                                        android:textColor="#4D4D4D"
+                                        android:textSize="21dp"
+                                        android:textStyle="bold" />
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="100dp"
+                                        android:layout_height="38dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardCornerRadius="40dp"
+                                        app:cardElevation="4dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center">
+
+                                            <ProgressBar
+                                                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                                android:layout_width="100dp"
+                                                android:layout_height="50dp"
+                                                android:layout_gravity="center_horizontal"
+                                                android:max="100"
+                                                android:progress="52"
+                                                android:progressTint="#86C1D1"
+                                                android:scaleY="10" />
+
+                                            <TextView
+                                                android:id="@+id/erkaklarProgressText"
+                                                android:layout_width="100dp"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="51.1%"
+                                                android:textColor="@color/black"
+                                                android:textSize="20dp" />
+                                        </RelativeLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="220dp"
+                                    android:layout_marginTop="45dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/statistika3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Ayollar"
+                                        android:textColor="#4D4D4D"
+                                        android:textSize="21sp"
+                                        android:textStyle="bold" />
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="100dp"
+                                        android:layout_height="38dp"
+                                        android:layout_marginTop="5dp"
+                                        app:cardCornerRadius="40dp"
+                                        app:cardElevation="4dp">
+
+                                        <RelativeLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center">
+
+                                            <ProgressBar
+
+                                                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_gravity="center_horizontal"
+                                                android:background="@drawable/custom_progress"
+                                                android:max="100"
+                                                android:progress="48"
+                                                android:progressTint="#10FF00"
+                                                android:scaleY="10" />
+
+                                            <TextView
+                                                android:id="@+id/ayollarProgressText"
+                                                android:layout_width="100dp"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="48.9%"
+                                                android:textColor="@color/black"
+                                                android:textSize="20dp" />
+                                        </RelativeLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/RelAxoli"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardstatistika"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bootshape"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="4dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cardstatistika"
+                                android:layout_marginTop="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/textVAxoli"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="33dp"
+                                            android:gravity="center_horizontal"
+                                            android:text="Axoli qatlami"
+                                            android:textColor="#000"
+                                            android:textSize="21dp"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Bolalar"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/bolalarSoniText"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/bolalarProg"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Yoshlar"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/ortakichik" />
+
+                                            <TextView
+                                                android:id="@+id/yoshlarSoniText"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="1.224.640"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/yoshlarProg"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="313987716"
+                                            android:maxHeight="@dimen/cardview_default_radius"
+                                            android:progress="213987716"
+                                            android:progressTint="#10FF00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="O'rta yoshlar"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichkinaaa" />
+
+                                            <TextView
+                                                android:id="@+id/ortaYoshSoniText"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="1.122.152"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/ortaYoshlarProg"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="2939816"
+                                            android:progressTint="#3BDCEE">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Nafaqa yoshidagilr"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/nafaqakichik" />
+
+                                            <TextView
+                                                android:id="@+id/nafaqadagilarText"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="207.103"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/nafaqadagilarProg"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="2239816"
+                                            android:progressTint="#505050">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/Roxiri"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_below="@id/RelAxoli"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:elevation="20dp"
+                            app:cardCornerRadius="30dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/textVAxoli2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="33dp"
+                                        android:gravity="center_horizontal"
+                                        android:text="Faoliyat boyicha"
+                                        android:textColor="#000"
+                                        android:textSize="21dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="20dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/ProgressUyushganlar"
+                                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_gravity="center_horizontal"
+                                        android:max="100"
+                                        android:progress="96"
+                                        android:secondaryProgressTint="@color/black">
+
+                                    </ProgressBar>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Uyushgan"
+                                            android:textColor="#000"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="5dp"
+                                            android:layout_height="5dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginHorizontal="20dp"
+                                            android:background="@drawable/kichkinaaa" />
+
+                                        <TextView
+                                            android:id="@+id/uyushganText"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="96.6%"
+                                            android:textColor="#000"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Uyushmagan"
+                                            android:textColor="#000"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="5dp"
+                                            android:layout_height="5dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginHorizontal="20dp"
+                                            android:background="@drawable/kichikoxiri" />
+
+                                        <TextView
+                                            android:id="@+id/uyushmaganText"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:text="3.4%"
+                                            android:textColor="#000"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </ScrollView>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <include layout="@layout/my_toolbar2" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imeg"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/toolbar_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="30dp"
+                android:text="Andijon"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/birbalo" layout="@layout/my_toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/viloyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:text="Andijon Viloyoti"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_list"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_down_24" />
+
+            <TextView
+                android:id="@+id/pustuy2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

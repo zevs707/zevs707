@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahallasinov2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MahallaSinovNoactionbar">
+        <activity android:name=".taminot_suv"></activity>
+        <activity android:name=".kamunal_musir" />
+        <activity android:name=".kamunal_elektor" />
+        <activity android:name=".kamunal_suv" />
+        <activity android:name=".kamunal" />
+        <activity android:name=".page_person" />
+        <activity
+            android:name=".viloyatlarListttt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.MahallaSinovNoactionbar" />
+        <activity android:name=".viloyatlar_listttt" />
+        <activity android:name=".KirishQism" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MahallaSinovNoactionbar"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

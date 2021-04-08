@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/backgroundColor"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_weight="6"
+                android:elevation="20dp"
+                android:theme="@style/MyCardView">
+
+                <ScrollView
+                    android:id="@+id/sv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bgHeader"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/suvcard2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="16dp"
+                                android:padding="6dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:elevation="20dp"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="3dp"
+                                        android:src="@drawable/capla" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="Suv"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="58435.9"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/gazcard2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="30dp"
+                                android:padding="6dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:elevation="20dp"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="3dp"
+                                        android:src="@drawable/gaz" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="Gaz"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="58435.9"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/elektorcard2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="16dp"
+                                android:padding="6dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:elevation="20dp"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="3dp"
+                                        android:src="@drawable/elektor" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="Elektor"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="58435.9"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/musircard2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="16dp"
+                                android:padding="6dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:elevation="20dp"
+                                    android:background="@drawable/bootshape"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="3dp"
+                                        android:src="@drawable/musir" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:layout_gravity="center"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="Chiqindi"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="58435.9"
+                                            android:textColor="#033333"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/Suv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardstatistika"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bootshape"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="4dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cardstatistika"
+                                android:layout_marginTop="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/textVAxoli"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_horizontal"
+                                            android:text="GAZ"
+                                            android:textColor="#000"
+                                            android:textSize="42dp"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Andijon Shahar"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvAnsh"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvAnsh"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Andijon Tuman"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvAntu"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvAntu"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Shahrihon tumani "
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvshat"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvshat"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Xonobod"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvxon"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvxon"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Asaka tumani"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvasaka"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvasaka"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Jalaquduq"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvjala"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvjala"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Ulugnor"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_ulu"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_ulu"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Paxtaobod"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_pax"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_pax"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Izboskan"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suviz"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suviz"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Oltinkol"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_olt"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_olt"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Marxamat"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvmar"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvmar"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Baliqchi"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvbali"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvbali"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="@string/Buloqboshi"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvbulo"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvulo"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginHorizontal="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="150dp"
+                                                android:layout_height="wrap_content"
+                                                android:text="Qo'rg'ontepa"
+                                                android:textColor="#000"
+                                                android:textStyle="bold" />
+
+                                            <ImageView
+                                                android:layout_width="5dp"
+                                                android:layout_height="5dp"
+                                                android:layout_gravity="center"
+                                                android:background="@drawable/kichikbola" />
+
+                                            <TextView
+                                                android:id="@+id/tv_suvqor"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="end"
+                                                android:layout_marginLeft="30dp"
+                                                android:text="512984"
+                                                android:textColor="#000" />
+                                        </LinearLayout>
+
+                                        <ProgressBar
+                                            android:id="@+id/prg_suvqor"
+                                            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="15dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:max="3139816"
+                                            android:progress="1345633"
+                                            android:progressTint="#FFCC00">
+
+                                        </ProgressBar>
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <include layout="@layout/my_toolbar2" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imeg"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/toolbar_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="30dp"
+                android:text="Andijon"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/birbalo" layout="@layout/my_toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/viloyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Qarzdorlik"
+                android:padding="3dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/viloyat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Taminotlanganlik"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

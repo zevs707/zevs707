@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mahalla sinov</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_logo">Learn coding with Duomly</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="dashboard_title">Dashboard page</string>
+    <string name="Asaka">Asaka</string>
+    <string name="Baliqchi">Baliqchi</string>
+    <string name="Buloqboshi">Buloqboshi</string>
+    <string name="Boz">Boz</string>
+    <string name="Jalaquduq">Jalaquduq</string>
+    <string name="Izboskan">Izboskan</string>
+    <string name="Marxamat">Marxamat</string>
+    <string name="Oltinkol">Oltinkol</string>
+    <string name="Paxtaobod">Paxtaobod</string>
+    <string name="Ulugnor">Ulugnor</string>
+    <string name="Xonobod">Xonobod</string>
+    <string name="Shaxrihon">Shaxrihon</string>
+    <string name="Eski">Eski Andjon</string>
+    <string name="Yangi">Yangi Andijon</string>
+</resources>
